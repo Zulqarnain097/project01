@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aspire Group Of Colleges </title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="./code.jquery.com_jquery-3.7.1.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+</head>
+<body>
+    <div class="lg:h-[40px] sm:h-[100px]    w-full h-[40px] flex bg-slate-900 text-white items-center gap-6  ">
+        <div class="flex text-xs items-center ml-[120px] gap-4 ">
+            <div class="w-5 h-6 items-center flex justify-center text-slate-900 bg-amber-700"><i class="fa-solid fa-phone"></i> </div>UAN: 111-Aspire-277-473 </div>
+        <div class=" flex text-sm items-center gap-4">
+            <div class="w-5 h-6 items-center flex justify-center text-slate-900 text-xs bg-amber-700"><i class="fa-solid fa-envelope"></i></div>info@aspirecolleges.edu.pk</div>
+    </div>
+
+    <div class="w-full h-[80px] flex lg:flex  "> 
+        <div class="flex w-[90%] mr-auto items-center justify-between ">
+            <div class="flex  w-40 ml-[120px] lg:flex md:hidden"> <img src="./logo.jpg" alt=""></div>
+        <div class="lg:flex hidden md:flex">
+           <li class="text-lg list-none	flex  lg:flex sm:ml-10 sm:w-full sm:gap-10 ">
+                <div class="">
+                    <div class="">
+                        <a href="" class="hover:text-orange-400" >Home</a><i class="fa-solid fa-angle-down hover:text-orange-400" id="btn2"></i>
+                    </div>
+                </div>
+                <a href="" class="hover:text-orange-400">Online Admission</a>
+                <a href="" class="hover:text-orange-400">Courses</a>
+                <a href="" class="hover:text-orange-400">Event</a>
+                <a href="" class="hover:text-orange-400">Careers</a>
+                <a href="" class="hover:text-orange-400">Student Portal</a>
+                <a href="D:\13\final project\index.html" class="hover:text-orange-400">Contact</a>
+            </li>
+        </div>
+        <div id="btn" class="md:hidden"><i class="fa-solid fa-bars"></i></div>
+       
+    </div>
+    
+        </div>
+        <div id="menu" class="bg-white relative hidden  flex-col gap-6 w-full h-[280px] ">
+            <div class="flex-col gap-3 flex">
+            <div><a class="py-3 hover:text-orange-400 px-7" href=" D:\13\final project\index.htm">Home</a><i class="fa-solid fa-angle-down hover:text-orange-400" id="btn3"></i>
+                <ul id="menu3" class="px-7 py-3 hidden">
+                    <li class="hover:bg-zinc-200 "><a href="">Home</a></li>
+                    <li class="hover:bg-zinc-200 "><a href="">About Us</a></li>
+                    <li class="hover:bg-zinc-200 "><a href="">Our Staff</a></li>
+                    <li class="hover:bg-zinc-200 "><a href="">Campuses</a></li>
+                    <li class="hover:bg-zinc-200 "><a href="">Cources</a></li>
+                    <li class="hover:bg-zinc-200 "><a href="">Online Admission</a></li>
+                </ul>
+            </div>
+            <script>
+                $(document).ready(function(){
+                    $('#btn3').click(function(){
+                        $("#menu3").slideToggle();
+                    })
+                })
+            </script>
+            
+            <div><a class="py-3 hover:text-orange-400 px-7" href=" file:///D:/13/final%20project/index.html">Online Admission</a></div>
+            <div><a class="py-3 hover:text-orange-400 px-7" href=" file:///D:/13/final%20project/index.html">Courses</a></div>
+            <div><a class="py-3 hover:text-orange-400 px-7" href=" file:///D:/13/final%20project/index.html">Event</a></div>
+            <div><a class="py-3 hover:text-orange-400 px-7" href=" file:///D:/13/final%20project/index.html">Careers</a></div>
+            <div><a class="py-3 hover:text-orange-400 px-7" href=" file:///D:/13/final%20project/index.html">Student Portal</a></div>
+            <div><a class="py-3 hover:text-orange-400 px-7" href=" file:///D:/13/final%20project/index.html">Contact</a></div>
+        </div>
+           </div>
+        <!-- <div id="menu" class="bg-white relative hidden  w-full">
+            <div class="py-3 hover:bg-black hover:text-white px-7">Home</div>
+            <div class="py-3 hover:bg-black hover:text-white px-7">Online Admission</div>
+            <div class="py-3 hover:bg-black hover:text-white px-7">Courses</div>
+            <div class="py-3 hover:bg-black hover:text-white px-7">Event</div>
+            <div class="py-3 hover:bg-black hover:text-white px-7">Careers</div>
+            <div class="py-3 hover:bg-black hover:text-white px-7">Student Portal</div>
+            <a class="py-3 hover:bg-black hover:text-white px-7" href=" file:///D:/13/final%20project/index.html">Contact</a>
+           </div> -->
+           <div id="menu2" class="bg-gray-100 absolute  hidden p-3 flex-row gap-6 w-[100%] h-[310px] md:w-[30%] ">
+            <div class="flex flex-row gap-4">
+            <div class="w-[50%] flex  flex-col">
+                <div class=" w-full h-[50px] bg-red-300 flex items-center px-3 rounded-tl-lg rounded-br-lg">Pages</div>
+                <div class="flex flex-col ml-5 gap-4 text-[18px]  ">
+                    
+                        <li class="hover:bg-zinc-200 "><a href="">Home</a></li>
+                        <li class="hover:bg-zinc-200 "><a href="">About Us</a></li>
+                        <li class="hover:bg-zinc-200 "><a href="">Our Staff</a></li>
+                        <li class="hover:bg-zinc-200 "><a href="">Campuses</a></li>
+                        <li class="hover:bg-zinc-200 "><a href="">Cources</a></li>
+                        <li class="hover:bg-zinc-200 "><a href="">Online Admission</a></li>
+                        
+                    
+                </div>
+            </div>
+            <div class="w-[50%] flex  flex-col">
+                <div class=" w-[70%] h-[50px] bg-red-300 flex items-center px-3 rounded-tl-lg rounded-br-lg">Content</div>
+                <div class="flex flex-col ml-5 gap-4 text-[18px]  ">
+                    
+                        <li class="hover:bg-zinc-200 "><a href="">FAQ Page</a></li>
+                        <li class="hover:bg-zinc-200 "><a href="">Event</a></li>
+                        <li class="hover:bg-zinc-200 "><a href="">Careers</a></li>
+                        <li class="hover:bg-zinc-200 "><a href="">Testimonial</a></li>
+                        <li class="hover:bg-zinc-200 "><a href="">Photo Gallery</a></li>
+
+                        
+                    
+                </div>
+            </div>
+        </div>
+           </div>
+        <div class="w-full "> <img src="./slider-3.jpg" alt=""></div>
+
+        <div class="w-full  my-8 flex  flex-wrap justify-center md:flex  sm:grid-cols-1  items-center gap-8">
+            <a href=""><div class="w-[330px] h-[350px] bg-slate-50 ">
+                <div class="h-[70%]"><img src="./home_collagepropb.jpg" alt=""></div>
+                <div class="h-11 bg-slate-900"></div>
+                <div class="bg-red-400 h-[62px] items-center flex text-xl  justify-center">
+                    <div class="flex mb-6 text-white hover:underline ">College Programe</div>
+                </div>
+            </div></a>
+            <a href=""><div class="w-[330px] h-[350px]  bg-slate-50 ">
+                <div class="h-[70%]"><img src="./home_universitypropb1605262347.jpg" alt=""></div>
+                <div class="h-11 bg-slate-900"></div>
+                <div class="bg-orange-300 h-[62px] items-center flex text-xl  justify-center">
+                    <div class="flex mb-6 text-white hover:underline ">University Programs</div>
+                </div>
+            </div></a>
+            <a href=""><div class="w-[330px] h-[350px] bg-slate-50 ">
+                <div class="h-[70%]"><img src="./home_campusespb1605262359.jpg" alt=""></div>
+                <div class="h-11 bg-slate-900"></div>
+                <div class="bg-green-400 h-[62px] items-center flex text-xl  justify-center">
+                    <div class="flex mb-6 text-white hover:underline ">Our Campuses</div>
+                </div>
+            </div></a>
+            
+        </div>
+        <div class="container w-[80%] h-[400px] m-auto flex-wrap  grid sm:grid-cols-1 md:flex">
+            <div class="flex flex-col w-full justify-center items-center m-auto">
+                <div class="flex  justify-center text-lg">GET TO KNOW</div>
+                <div class="flex  justify-center text-red-700 text-4xl">ABOUT ASPIRE
+                </div>
+    
+            </div>
+            <div class="flex w-[80%]   sm:flex  justify-center mt-3 text-lg">The core purpose of ASPIRE College is to ensure that our students acquire the knowledge, skills and attributes to become <br> leaders!
+            </div>
+            <div class="flex flex-col flex-wrap w-[80%]  mt-2 sm:mr-auto ">We strive to instill three essential qualities in each student i.e. Determination, Knowledge & Adaptability Students of ASPIRE are, therefore, educated for the 21st century; ready to face new challenges throughout their lives. These attributes prepare students not just for success at a top university and a successful career, but they learn the fundamentals of self-discipline that underpins effective leadership for a Better World
+                
+            </div>
+            <a href="">
+                <div class="flex justify-end items-end mr-36 mt-2 md:flex sm:flex">
+                    <div class="w-[120px] h-8 border border-green-400 items-center justify-center flex"> Learn More</div>
+                </div>
+            </a>
+            
+        </div>
+        <div class="w-full h-[400px] flex  text-white items-center" >
+            <div class="w-full h-[300px] flex items-center justify-center flex-wrap" style="background: url(./counter.jpg);">
+                <div class="w-[200px] h-20 items-center justify-center flex flex-col gap-2 ">
+                    <div class="text-4xl">250,000</div>
+                   <div class="text-xs">HAPPY STUDENTS</div>
+                   </div>
+                   <div class="w-[200px] h-20 items-center justify-center flex flex-col gap-2 ">
+                    <div class="text-4xl">127+</div>
+                   <div class="text-xs">ASPIRE CAMPUSES</div>
+                   </div>
+                   <div class=" w-[200px] h-20 items-center justify-center flex flex-col gap-2 ">
+                    <div class="text-4xl">3000+</div>
+                   <div class="text-xs"> TEACHERS</div>
+                   </div>
+                   <div class=" w-[200px] h-20 items-center justify-center flex flex-col gap-2 ">
+                    <div class="text-4xl">50+</div>
+                   <div class="text-xs">CITIES</div>
+                   </div>
+            </div>
+        </div>
+           
+       
+        
+        <div class="container w-[80%] m-auto h-[200px] gap-2 flex flex-col flex-wrap ">
+            <div class="text-2xl text-red-700">WHY ASPIRE?</div>
+            <div class="font-bold underline ">WE HAVE MANY SPECIAL THINGS FOR YOU</div>
+            <div>Aspire is the first group of colleges covers about 33 % course that includes 2 monthly test and sendups. Provide continuous 4 months session leading to regular classes means no wastage of time. Teach special lessons on manners and etiquettes on personality grooming. Facilitate special mentoring sessions for high achievement in board exam</div>
+        </div>
+        
+        <div class="container w-[80%] m-auto   flex-wrap grid md:flex   sm:grid-cols-1  "> 
+            <div class="w-[50%] flex flex-col gap-3 sm:mx-auto">
+                <div>
+                    <div class="text-red-600 font-normal ">ACADEMIC ACHEIVEMENTS</div>
+                <div>Achieve height & Glory of Academics by Joining Aspire.</div>
+                </div>
+                <div>
+                    <div class="text-red-600 font-normal ">STUDENT AWARD</div>
+                <div>We at Aspire motivate our students by inculcate true valuesn.</div>
+                </div>
+                <div>
+                    <div class="text-red-600 font-normal ">FULLY EQUIPED</div>
+                <div>We build completely planned campuses to facilities to our students</div>
+                </div>
+            </div>
+            <div class="w-[50%] flex flex-col gap-3 sm:mx-auto">
+                <div>
+                    <div class="text-red-600 font-normal ">SCHOLARSHIPS & FEE ASSISTANCE</div>
+                <div>Aspire Appreciates & Helps your passion to achieve your dreams</div>
+                </div>
+                <div>
+                    <div class="text-red-600 font-normal ">BARA AADMI</div>
+                <div>The aim is to educate, encourage and appreciating their efforts</div>
+                </div>
+                <div>
+                    <div class="text-red-600 font-normal ">CO-CURRICULAR ACTIVITIES</div>
+                <div>Activities, programs, and learning provide maximum experiences to compliment Students</div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="container w-[90%] h-[600px] m-auto gap-3 flex flex-col my-14 ">
+            <div class="flex items-center justify-center text-red-600 text-2xl "> Our Pride</div>
+            <div><img src="./home_booking_photo.jpg" alt=""></div>
+        </div>
+
+        <div style="background: url(./color-shader.jpg);" class="container m-auto w-[90%] h-[200px] flex flex-col items-center gap-4 justify-center ">
+            <div class="text-white text-2xl">Get In Touch With Us</div>
+                <div class="flex   md:flex  ">
+                    <input class="w-[500px] h-[40px] flex-wrap sm:w-[400px] p-3 flex " type="Emter your email">
+                    <button class="bg-green-400 w-[100px]">Subscibe</button>
+                </div>
+        </div>
+
+        <div class="container w-[90%] items-center justify-center flex  mt-[100px] m-auto">
+            <div class="text-red-600 text-2xl">Events</div>
+        </div>
+
+        <div class=" container w-[90%]  flex-row lg:flex grid  sm:grid-cols-1 md:flex items-center justify-center  gap-8 m-auto">
+            <div class="w-[50%] flex-col  sm:mx-auto">
+                <a href="">
+                    <div>
+                        <div class="flex items-center justify-center  text-blue-500 text-xl">Annual Sport Gala</div>
+                        <div><img src="./event-8.jpg" alt=""></div>
+                    </div>
+                </a>
+                <a href="">
+                    <div>
+                        <div class="flex items-center justify-center text-blue-500 text-xl">Sport Day</div>
+                        <div><img src="./event-6.jpg" alt=""></div>
+                    </div>
+                </a>
+            </div>
+            <div class="w-[50%] flex-col sm:mx-auto ">
+                <a href="">
+                    <div>
+                        <div class="flex items-center justify-center text-blue-500 text-xl">POP(Power Of Performence)</div>
+                        <div><img src="./event-7.jpg" alt=""></div>
+                    </div>
+                </a>
+                <a href="">
+                    <div>
+                        <div class="flex items-center justify-center text-blue-500 text-xl">ACIT(Aspire College Intelligence Test)</div>
+                        <div><img src="./event-5.jpg" alt=""></div>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <div class="container  w-[90%]  gap-8 md:flex  my-12  mx-auto grid sm:grid-cols-1 items-center justify-center ">
+            <div class="w-[50%] h-full flex justify-center sm:mx-auto sm:w-full items-center ">
+                <video class="w-full h-96" controls>
+                    <source src="https://www.youtube.com/watch?v=NTsBPY6Awp4">
+                  </video>
+            </div>
+            <div class="w-[50%] gap-4 flex flex-col sm:w-full ">
+                <div class="text-2xl">The Country's Best Educational Institute</div>
+                <div class="flex flex-wrap">The core purpose of ASPIRE College is to ensure that our students acquire the knowledge, skills and attributes to become leaders! We strive to instill three essential qualities in each student i.e. Determination, Knowledge & Adaptability Students of ASPIRE are, therefore, educated for the 21st century; ready to face new challenges throughout their lives. These attributes prepare students not just for success at a top university and a successful career, but they learn the fundamentals of self-discipline that underpins effective leadership for a Better World.
+                </div>
+            </div>
+        </div>
+
+        <div class="container m-auto w-[90%]  flex flex-col gap-8 items-center justify-center">
+            <div class="text-red-600 text-5xl">Follow Us</div>
+            <div class="w-full justify-between">
+                <div class=" flex flex-wrap justify-between " >
+                    <a href=""><img class="w-[100px] hover:transform hover:scale-110 hover:transition-[0.5s] " src="./facebook-icon.png" alt=""></a>
+                    <a href=""><img class="w-[100px] hover:transform hover:scale-110 hover:transition-[0.5s]" src="./twitter-icon.png" alt=""></a>
+                    <a href=""><img class="w-[100px] hover:transform hover:scale-110 hover:transition-[0.5s]" src="./instagram-icon.png" alt=""></a>
+                    <a href=""><img class="w-[100px] hover:transform hover:scale-110 hover:transition-[0.5s]" src="./youtube-icon.png" alt=""></a>
+                    <a href=""><img class="w-[100px] hover:transform hover:scale-110 hover:transition-[0.5s]" src="./whatsapp-icon.png" alt=""></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="h-[400px] flex"><img class=" my-12" src="./home_weareherebg.jpg" alt=""></div>
+
+        
+        <div class="w-full  flex bg-[#2d3339] items-center justify-center flex-wrap ">
+            
+            <div class=" grid gap-[20px]  md:flex w-[90%] my-12 flex-wrap sm:grid-cols-1 m-auto  ">
+                <div class="w-[30%] h-[200px] bg-[#f27c66] sm:mx-auto sm:w-[40%] flex gap-3 rounded flex-col p-3">
+                    <div class="flex">
+                        <div class="flex gap-1"><i class="fa-solid fa-house text-white text-xs"></i><p class="text-xs text-white">Aspire Tower, 4D PIA road, Wapda Town,<br> Lahore</p></div>
+                    </div>
+                    <div class="flex">
+                        <div class="flex gap-1"><i class="fa-solid fa-phone  text-white text-xs"></i><p class="text-xs text-white">UAN Number: 111-Aspire(277-473) <br>
+                            042-35199693-9</p></div>
+                    </div>
+                    <div class="flex">
+                        <div class="flex gap-1"><i class="fa-solid fa-envelope  text-white text-xs"></i><p class="text-xs text-white">info@aspirecolleges.edu.pk</p></div>
+                    </div>
+                    <div class="flex">
+                        <div class="flex gap-1"><i class="fa-solid fa-paperclip text-white text-xs"></i><p class="text-xs text-white">http://www.aspirecolleges.edu.pk/
+                        </p></div>
+                    </div>
+                </div>
+
+                <div class="w-[30%] h-[300px] sm:w-[40%] flex-col gap-[20px] flex  sm:mx-auto">
+                    <div class="h-[40px] bg-[#f27c66] items-center flex p-3 rounded-br-2xl rounded-tl-2xl justify-between ">
+                            <div>About Us</div>
+                            <div><i class="fa-solid fa-building-columns"></i></div>
+                    </div>
+                    <p class="text-white text-sm">The core purpose of ASPIRE College is to ensure that our students acquire <span class="text-xs">the knowledge, skills and attributes to become leaders!.</span></p>
+                    <div class="flex gap-2 flex-col">
+                        <div class="flex">
+                            <div class="flex gap-1"><i class="fa-solid fa-phone  text-white text-xs"></i><p class="text-xs text-white">UAN Number: 111-Aspire(277-473) <br>
+                                042-35199693-9</p></div>
+                        </div>
+
+                        <div class="flex">
+                            <div class="flex gap-1"><i class="fa-solid fa-envelope  text-white text-xs"></i><p class="text-xs text-white">info@aspirecolleges.edu.pk</p></div>
+                        </div>
+                        <div class="flex">
+                            <div class="flex gap-1"><i class="fa-solid fa-paperclip text-white text-xs"></i><p class="text-xs text-white">http://www.aspirecolleges.edu.pk/
+                            </p></div>
+                        </div>
+                        <div class="flex">
+                            <div class="flex gap-1"><i class="fa-solid fa-house text-white text-xs"></i><p class="text-xs text-white">Aspire Tower, 4D PIA road, Wapda Town,<br> Lahore</p></div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <footer class="text-gray-600 body-font bg-slate-900">
+            <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
+              <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
+                <!-- <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full" viewBox="0 0 24 24"> -->
+                  <!-- <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+                </svg> -->
+                
+              </a>
+              <p class="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">Copyright © 2020, Aspire Colleges. All Rights Reserved.
+              </p>
+              <li class="text-lg list-none	flex  lg:flex sm:ml-10 sm:w-full sm:gap-10 ">
+                <a href="" class="hover:text-orange-400">Home</a>
+                <a href="" class="hover:text-orange-400">Online Admission</a>
+                <a href="" class="hover:text-orange-400">Courses</a>
+                <a href="" class="hover:text-orange-400">Event</a>
+                <a href="" class="hover:text-orange-400">Careers</a>
+                <a href="" class="hover:text-orange-400">Student Portal</a>
+                <a href="" class="hover:text-orange-400">Contact</a>
+                <a href="" class="hidden"><i class="fa-solid fa-bars"></i></a>
+            </li>
+            </div>
+          </footer>
+
+          <script>
+            $(document).ready(function(){
+                $('#btn').click(function(){
+                    $('#menu').slideToggle();
+                    abc();
+                })
+                function abc(){
+                    var a= '<i class="fa-solid fa-bars"></i>'
+                    var b= '<i class="fa-solid fa-xmark"></i>'
+                    if($('#btn').html()===a)
+                    {
+                        $('#btn').html(b);
+                    }
+                    else{
+                        $('#btn').html(a);
+                    }
+                }
+            })
+
+            $(document).ready(function(){
+                $('#btn2').click(function(){
+                    $('#menu2').toggle();
+                })
+            })
+        </script>
+
+
+</body>
+</html>
